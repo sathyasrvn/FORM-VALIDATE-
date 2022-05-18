@@ -1,0 +1,399 @@
+<!DOCTYPE html>    
+<meta charset="UTF-8">
+<meta name="published" content="sathya">
+<meta name="description" content="please fill in the below forms and application">
+<meta name="viewport" content="width=device-width initial-scale=1.0">
+<html>
+<head>
+<title>basic form</title>
+<style>
+#main{
+width:50%;
+margin:0 auto;
+}
+
+#login{
+color:red;
+letter-spacing:1px;
+word-spacing:2px;
+padding:5px 15px;
+margin:10px;
+text-transform:uppercase;
+border:5px dashed blue;
+border-radius:100px;
+text-align:center;
+}
+
+#comment{
+color:green;
+letter-spacing:1px;
+word-spacing:2px;
+padding:15px;
+margin:15px;
+text-transform:capitalize;
+border:5px dashed yellow;
+border-radius:50px; 
+text-align:center;
+}
+
+#contact{
+color:blue;
+letter-spacing:1px;
+word-spacing:2px;
+padding:15px;
+margin:15px;
+text-align:center;
+text-transform:capitalize;
+border:5px dashed red;
+border-radius:100px; 
+}
+
+#job{
+color:black;
+padding:15px;
+margin:15px;
+text-align:center;
+text-transform:capitalize;
+border:5px dashed blue;
+border-radius:50px; 
+}
+
+#iframe{
+color:brown;
+text-transform:capitalize;
+letter-spacing:1px;
+word-spacing:2px;
+text-align:center;
+border:5px dashed black;
+border-radius:100px;
+}
+
+#audio{
+color:red;
+text-transform:capitalize;
+letter-spacing:1px;
+word-spacing:2px;
+border:5px dashed blue;
+border-radius:50px; 
+text-align:center;
+}
+
+#video{
+color:red;
+text-transform:capitalize;
+letter-spacing:1px;
+word-spacing:2px;
+border:5px dashed green;
+border-radius:100px; 
+text-align:center;
+}
+
+</style>
+</head>
+
+<body>
+
+<div id="main">
+
+<div id="login">
+<h1>Login Form:</h1>
+
+
+<form>
+
+<p>
+  <label for="yourname">username:</label>
+  <input type="text" name="username" id="yourname" placeholder="enter your name" size="15" maxlength="25" required>
+</p>
+
+<p>
+  <label for="pwd">password:</label>
+  <input type="password" name="password" id="pwd" placeholder="enter your pwd" maxlength="8" required>
+</p>
+
+<p>
+  submit:
+  <input type="submit" name="send">
+</p>
+  
+</div>
+</form>
+  
+<br>  
+<hr>
+
+<div id="comment">
+<h2>comment form:</h2>
+
+<form>
+
+<p>
+<label for="name">Name:</label>
+<input type="text" name="yourname" id="name" placeholder="enter your name" size="15" required>
+</p>
+
+<p>
+<label for="email_id">Email:</label>
+<input type="text" name="emailid" id="email_id" placeholder="enter your mail id" required>
+</p>
+
+<p>
+<label for="comment">comment:
+   <input type="text" name="comment" id="comment"  placeholder="enter your comments"  required>  
+</p>
+ 
+<p>
+select your date of birth:
+<select name="dob" id="dob">
+<option value="select date">select date</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+</select>
+</p>
+
+<p>
+i want to join training for:
+<select name="course_choice" multiple size="3">
+<option value="html">html</option>
+<option value="css">css</option>
+<option value="js">js</option>
+<option value="react js">react js</option>
+<option value="angular js">angular js</option>
+<option value="java">java</option>
+<option value="javaaaaa">javaaaaa</option>
+</select>
+</p>
+
+<p>
+submit:
+<input type="submit" name="send">
+</p>
+
+</div>
+
+</form>
+ 
+<br>
+<hr>
+ 
+<div id="contact">
+	  	  
+<h2>contact form:</h2>
+<form>
+
+<p>
+Name:
+<input type="text" name="yourname"  placeholder="enter your name" size="15" required>
+</p>
+
+<p>
+Email:
+<input type="text" name="mailid" id="mail_id" placeholder="enter your mail id" required>
+</p>
+
+<p>
+<label for="subject">subject:</label>
+<input type="text" name="subject" id="subject" placeholder="enter your subject" required>
+</p>
+
+<p>
+<label for="reguest_type">is this a?</label>
+<label>
+<input type="radio" name="reguest_type" id="request_type" value="sales">sales reguest? 
+</label>
+<label>
+<input type="radio" name="reguest_type" id="request_type" value="service">service request?
+</label>
+</p>  
+<p> 
+<label for="hobbies">what is your hobbies:</label>
+<label><input type="checkbox" name="hobbies[]" id="hobbies" value="playing">playing</label>
+<label><input type="checkbox" name="hobbies[]" id="hobbies" value="working">working</label>
+<label><input type="checkbox" name="hobbies[]" id="hobbies" value="listening">listening</label>
+<label><input type="checkbox" name="hobbies[]" id="hobbies" value="fighting">fighting</label>
+<label><input type="checkbox" name="hobbies[]" id="hobbies" value="developing">developing</label>
+</p>
+<p>
+message:
+<textarea name="comments" id="message"  placeholder="enter your message"  cols="15" rows="2" required> </textarea> 
+</p> 
+<p>
+<input type="submit" value="send message" name="contact form">
+</p>
+
+</div>
+
+</form>	 
+ 	  
+   
+   <br>
+   <hr>
+   
+<div id="job">
+
+<h2>job application form:</h2>
+<form enctype="multipart/form_data">
+<p> 
+<label for="yourname">name:
+<input type="text" name="your_name" id="yourname" placeholder="enter your name">
+</p>
+<p>
+<label for="age">age:</label>
+<input type="number" name="age" id="age" required min="18" required max="35">
+</p>
+
+<p>
+select your genter:
+<select name="genter" id="genter">
+<option value="select genter">select genter</option>
+<option value="male" selected>male</option>
+<option value="female">female</option>
+<option value="transenter">tranenter</option>
+</select>
+</p>
+
+<p>
+<label for="email_id">emailid:</label>
+<input type="email" name="email_id" id="email_id" required>
+</p>
+
+<p>
+<label for="dob">date of birth:</label> 
+<input type="date" name="dob" id="dob" required>
+</p> 
+
+<p>
+<label for="time">time:</label>
+<input type="time" name="time" id="time"required>
+</p>
+<p>
+<label for="week">week:</label>
+<input type="week" name="week" id="week"required>
+</p>
+
+<p>
+	what is your education?
+<select name="education_choice" size="3">
+<option value="BE">BE</option>
+<option value="B.TECH">B.TECH</option>
+<option value="B.C.A">B.C.A</option>	
+<option value="B.SC">B.SC</option>
+<option value="M.COM">M.COM</option>
+</select>
+</p> 
+<br>
+
+<p>
+<label for="position">you want to apply for the position:?</label><br>
+<label><input type="radio" name="request_type" id="position" value="front end developer">front end developer</label><br> 
+<label><input type="radio" name="request_type" id="position" value="back end developer">back end developer</label><br>
+<label><input type="radio" name="request_type" id="position" value="full stack developer">full stack developer</label><br>
+</p>
+
+<p>
+<label for="price">range:<label>
+<input type="range" name="price" id="price" min="1" max="1000" step="10">
+</p>
+
+<p>
+<label for="job_search">search:</label>
+<input type="search" name="job_search" id="job_search">
+</p>
+
+<p>
+<label for="website">url:</label>
+<input type="url" name="website" id="website"required>
+</p>
+
+<p> 
+your resume:
+<input type="file" name="resume"required>
+</p>
+
+<p>
+send message:
+<input type="submit" name="send" value="send message">
+</p>
+
+</div>
+
+</form>
+
+<br>
+<hr>
+
+<div id="iframe">
+
+<h2>iframe:</h2>
+<h3>examples of iframe</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iz69bMOtfDI" title="YouTube video player"
+ frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+      picture-in-picture" allowfullscreen></iframe>
+ 
+ </div>
+ 
+ <br>
+<hr>
+
+<div id="audio">
+
+<h2>audio format:</h2> 
+<audio src="wav-recording.wav" controls></audio>
+<h3>multiple format</h3>
+<audio controls> 
+<source src="wav-recording.wav" type="audio/wav" />
+<source src="mp3-recording.mp3" type="audio/mp3" />
+<source src="ogg-recording.ogg" type="audio/ogg" />
+</audio>
+
+</div>
+<br>
+<hr>
+
+<div id="video">
+
+<h2>video format:</h2>
+<video src="ogg-video-demo.ogg" controls width="250"></video>
+ 
+
+<h3>multiple video format</h3>
+
+<video controls width="450">
+<source src="avi-video-demo.avi" type="video/avi" /> 
+<source src="mp4-video-demo.mp4" type="video/mp4-" /> 
+<source src="ogg-video-demo.ogg" type="video/ogg" /> 
+<source src="web-video-demo.web" type="video/web" /> 
+</video>
+</div>
+</div>
+</body>	  
+</html>
